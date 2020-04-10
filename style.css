@@ -1,0 +1,264 @@
+
+
+     body { 
+        background-color:#062863;
+        margin:20px;
+        text-align:center;
+    }
+    h1,h2{
+	        font-size: 1.5rem;
+	        color: #083e9e;
+	        text-align: center;
+	        font-weight: 700;
+	        font-family: U8,sans-serif;
+	        margin: 0;
+	        --transition-duration: 250ms;
+	        border: 0 solid #e2e8f0;
+	        box-sizing: inherit;
+		    display: block;
+		    margin-block-start: 0.67em;
+		    margin-block-end: 0.67em;
+		    margin-inline-start: 0px;
+		    margin-inline-end: 0px;
+		    line-height: 1.5;
+
+    }
+
+    p{
+    	color: #4a5568;
+    	text-align: center;
+    	font-family: Karla,sans-serif;
+    	margin: 0;
+    	--transition-duration: 250ms;
+    	border: 0 solid #e2e8f0;
+    	box-sizing: inherit;
+    	display: block;
+	    margin-block-start: 1em;
+	    margin-block-end: 1em;
+	    margin-inline-start: 0px;
+	    margin-inline-end: 0px;
+    }
+
+    .container{
+			    font-size: 1.5rem;
+			    color: #083e9e;
+			    text-align: center;
+			    font-weight: 700;
+			    font-family: U8,sans-serif;
+			    margin: 0;
+			    --transition-duration: 250ms;
+			    border: 0 solid #e2e8f0;
+			    box-sizing: inherit;
+			    display: block;
+			    margin-block-start: 0.67em;
+			    margin-block-end: 0.67em;
+			    margin-inline-start: 0px;
+			    margin-inline-end: 0px;
+			    line-height: 1.5;
+
+    }
+
+    .secure{
+		    background-size: 15%, 15%, 15%, 15%;
+		    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+		    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		    padding-top: 3rem;
+		    padding-bottom: 3rem;
+		    overflow: auto;
+		    min-height: 100vh;
+		    align-items: center;
+		    flex-direction: column;
+		    display: flex;
+		    background-color: #062863;
+		    --transition-duration: 250ms;
+		    border: 0 solid #e2e8f0;
+		    box-sizing: inherit;
+
+
+    }
+
+    a{
+	    color: inherit;
+	    text-decoration: inherit;
+	    background-color: transparent;
+	    cursor: pointer;
+	    --transition-duration: 250ms;
+	    border: 0 solid #e2e8f0;
+	    box-sizing: inherit;
+
+
+    }
+
+    .logo{
+	    margin-bottom: 3rem;
+	    max-width: 100%;
+	    height: auto;
+	    display: block;
+	    vertical-align: middle;
+	    border-style: solid;
+	    --transition-duration: 250ms;
+	    border: 0 solid #e2e8f0;
+	    box-sizing: inherit;
+    }
+
+    .border{
+    	padding-bottom: 3rem;
+    	padding: 2.5rem;
+    	width: 91.666667%;
+    	max-width: 28rem;
+    	border-bottom-right-radius: 1.25rem;
+    	border-top-left-radius: 1.25rem;
+        border-top-right-radius: 1.25rem;
+        background-color: #fff;
+
+
+    }
+    /*Pseudo ::after element*/
+
+   /* *, :after, :before {
+    --transition-duration: 250ms;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    display: block;
+
+}
+*/
+    /*Pseudo ::before element*/
+        *, :after, :before{
+    --transition-duration: 250ms;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    display: block;
+    }
+
+     html {
+		    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,
+		    helvetica neue,Arial,noto sans,sans-serif,apple color emoji,
+		    segoe ui emoji,segoe ui symbol,noto color emoji;
+		    line-height: 1.5;
+		    ox-sizing: border-box;
+		    color: -internal-root-color;
+
+}
+      header{
+      	margin-bottom: 2rem;
+      	align-items: center;
+      	flex-direction: column;
+      	display: flex;
+      	--transition-duration: 250ms;
+      	    border: 0 solid #e2e8f0;
+      	    box-sizing: inherit;
+      }
+
+      form{
+      	overflow-y: auto;
+      	min-height: min-content;
+      	margin-top: 2rem;
+      	margin-bottom: 0;
+      	flex: 1 1;
+      	flex-direction: column;
+      	flex-direction: column;
+      	--transition-duration: 250ms;
+      	border: 0 solid #e2e8f0;
+      	box-sizing: inherit;
+
+}
+
+.fullname{
+	position: relative;
+	margin-bottom: 2rem;
+	flex-direction: column;
+	display: flex;
+	--transition-duration: 250ms;
+	border: 0 solid #e2e8f0;
+	box-sizing: inherit;
+	font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,
+	helvetica neue,Arial,noto sans,sans-serif,apple color emoji,
+	segoe ui emoji,segoe ui symbol,noto color emoji;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+}
+
+.create{
+	background-color: rgb(8, 62, 158);
+	font-size: .875rem;
+	flex-direction: row;
+	    width: 100%;
+	    white-space: nowrap;
+	    text-transform: uppercase;
+	    color: #fff;
+	    text-align: center;
+	    padding-top: 1.25rem;
+	    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    margin-top: 0;
+    font-weight: 700;
+    font-family: U8,sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+    border-bottom-right-radius: .75rem;
+
+
+}
+     [type=submit], button {
+    -webkit-appearance: button;
+    line-height: inherit;
+    cursor: pointer;
+    background: 0 0;
+
+}
+    button, input {
+    overflow: visible;
+    margin: 0;
+    --transition-duration: 250ms;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    font: 400 13.3333px Arial;
+
+}
+      
+/*
+     input{
+         text-align:center;
+     }*/
+
+         label{
+         width: 400px;
+         box-shadow:0,0,3px 0 rgba(0,0,0,0.3);
+         padding:20px;
+        text-align:center;
+         }
+
+    /*p {
+        margin:15px;
+        text-align:center;
+    
+    }  */
+
+        /* footer {
+             background-color:blue;
+             text-align:center;
+             font: size 15px;
+         }*/
+
+         #account{
+                    overflow-y: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    height: 100vh;
+                    --transition-duration: 250ms;
+                    border: 0 solid #e2e8f0;
+                    box-sizing: inherit;
+
+         }
